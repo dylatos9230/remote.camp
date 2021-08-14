@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    .bg-hero-pattern {
+        background-image: url(/src/assets/hero-pattern.svg);
+    }
+    .text-gray-400 {
+        --tw-text-opacity: 1;
+        color: rgba(93,95,101,var(--tw-text-opacity));
+    }
+    .text-brand {
+        color: rgba(var(--brand));
+    }
+}

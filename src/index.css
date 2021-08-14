@@ -1,0 +1,11 @@
+@import '~modern-normalize/modern-normalize.css';
+root {
+  --brand: 255,48,73,1;
+  --peach: 255,155,141;
+  --light-peach: 255,189,180;
+  --wordmark: 67,17,23;
+  --blue: 42,150,250;
+  --green: 42,250,125;
+  --yellow: 255,212,53;
+  transition: background-color .3s ease;
+}
